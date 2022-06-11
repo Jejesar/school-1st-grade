@@ -1,6 +1,5 @@
-//  SARTIAUX JÉRÔME
-//  1BINI
-//  EXQ2
+//  JEJESAR
+//  Exam Q2
 
 #include <stdio.h>
 #include <stdlib.h>
