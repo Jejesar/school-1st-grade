@@ -1,0 +1,55 @@
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--dark-blue);
+    padding: 0 50px;
+
+    .logo {
+        height: 100%;
+    }
+
+    ul {
+        display: flex;
+
+        li {
+            list-style: none;
+            margin: 0 15px;
+
+            button {
+                padding: 7px 15px;
+                background: var(--blue);
+                border-radius: 5px;
+                border: none;
+
+                &:hover {
+                    background: var(--dark-blue);
+                    transform: scale(1.1);
+                    transition: ease-in-out .2s;
+                    outline: 3px solid var(--blue);
+                    outline-offset: -3px;
+                }
+
+                &:active {
+                    transition: ease-in-out .1s;
+                    transform: scale(1);
+                }
+
+                a {
+                    font-family: 'Poppins';
+                    font-weight: 600;
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                    text-decoration: none;
+                    color: var(--white);
+                    margin: 0 10px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}

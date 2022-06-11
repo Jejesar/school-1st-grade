@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <!-- META -->
+    <title>Windows 11 | Sartiaux Jérôme</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/img/favicon.png" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/main.css">
+
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./src/img/logo.png" alt="Logo de Windows 11">
+        <nav>
+            <ul>
+                <li><button><a href="./index.html">Accueil</a></button></li>
+                <li><button><a href="#">Formulaire</a></button></li>
+                <li><button><a href="./video.html">Vidéos</a></button></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="content form">
+        <div class="infos">
+            <h1>Oh un petit formulaire</h1>
+            <p>Comme ça on reste dans le thème de Microsoft, donnez nous tout ;)</p>
+        </div>
+        <div class="medias">
+            <form autocomplete="off">
+                <fieldset class="field-personnal">
+                    <legend>Infos perso</legend>
+                    <label for="surname">Nom :</label><input type="text" name="surname" id="surname" required>
+                    <label for="firstname">Prénom :</label><input type="text" name="firstname" id="firstname" required>
+                    <label for="age">Age :</label><input type="number" name="age" id="age" value="0" min="1" max="130"
+                        required>
+                </fieldset>
+                <fieldset class="field-newsletter">
+                    <legend>Newsletter</legend>
+                    <label for="email">Email :</label><input type="email" name="email" id="email" required>
+                    <div class="newsletter"><input type="checkbox" name="newsletter" id="newsletter"><label
+                            for="newsletter">S'abonner à la newsletter</label></div>
+                </fieldset>
+                <fieldset class="field-avis">
+                    <legend>Avis</legend>
+                    <label for="avis">Donnez moi votre avis sur le site :</label><textarea name="avis" id="avis"
+                        cols="50" rows="2"></textarea>
+                </fieldset>
+                <fieldset class="submit">
+                    <legend>Dernière étape</legend>
+                    <button type="submit">Envoyer</button>
+                </fieldset>
+            </form>
+            <p>Merci de répondre à tout.</p>
+        </div>
+    </section>
+    <footer>
+        Jérôme Sartiaux | Tous droits réservés © 2021-2022
+    </footer>
+</body>
+
+</html>
