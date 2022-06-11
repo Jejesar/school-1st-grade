@@ -1,2 +1,6 @@
-# school-1st-grade
-All projects of my 1st grade of school at industrial computer sciences.
+# Language C Exam
+The june exam of language C.
+
+What we had to do :
+
+[!Cahier des charges](https://cdn.discordapp.com/attachments/985166299653087272/985166330065997844/enonce.jpg)
